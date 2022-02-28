@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | RuleOfPuzzle</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
     <script src="Build/RuleOfDungeonv1.0_github.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/RuleOfDungeonv1.0_github.data.gz",
-        frameworkUrl: "Build/RuleOfDungeonv1.0_github.framework.js.gz",
-        codeUrl: "Build/RuleOfDungeonv1.0_github.wasm.gz",
+        dataUrl: "Build/RuleOfDungeonv1.0_github.data",
+        frameworkUrl: "Build/RuleOfDungeonv1.0_github.framework.js",
+        codeUrl: "Build/RuleOfDungeonv1.0_github.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "RuleOfPuzzle",
