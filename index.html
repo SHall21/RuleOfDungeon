@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/RuleOfDungeonv1.0.loader.js"></script>
+    <script src="Build/RuleOfDungeonv1.0_github.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/RuleOfDungeonv1.0.data.gz",
-        frameworkUrl: "Build/RuleOfDungeonv1.0.framework.js.gz",
-        codeUrl: "Build/RuleOfDungeonv1.0.wasm.gz",
+        dataUrl: "Build/RuleOfDungeonv1.0_github.data",
+        frameworkUrl: "Build/RuleOfDungeonv1.0_github.framework.js",
+        codeUrl: "Build/RuleOfDungeonv1.0_github.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "RuleOfPuzzle",
