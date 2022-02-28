@@ -18,4 +18,4 @@ Music Jingles
 Interface Sounds
 
 ## Links
-Play here: 
+Play here: https://shall21.github.io/RuleOfDungeon/
